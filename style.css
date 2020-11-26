@@ -1,7 +1,7 @@
 @import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
 @import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
 body {
-  font-family: 'Poppins';
+  font-family: 'Open Sans';
   font-weight: 300;
   background-color: rgb(240, 240, 240);
 }
@@ -12,17 +12,16 @@ body {
   border-radius: 70px;
 }
 
-h1 {
+h1, h2 {
+  font-family: 'Poppins';
   color: #394648;
 }
 
 h2 {
-  color: #394648;
   margin: 21px 24px;
 }
 
 p {
-  font-family: 'Open Sans';
   color: #394648;
   margin: 21px 24px 24px 24px;
 }
@@ -47,6 +46,7 @@ border-radius: 4px;
 }
 
 .btn-green {
+  font-family: 'Poppins';
   background-color: #394648;
   color: white;
   padding: 8px 24px;
@@ -86,7 +86,7 @@ border-radius: 4px;
 
 .container {
   width: 650px;
-  margin: 40px auto;
+  margin: 36px auto;
 }
 
 @media (max-width: 960px) {
